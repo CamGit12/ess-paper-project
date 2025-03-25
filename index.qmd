@@ -10,7 +10,103 @@ authors:
     roles: writing
     corresponding: false
 bibliography: references.bib
+csL: apa,csl
 ---
 
-## Section
-This is a simple placeholder for the manuscript's main document [@knuth84].
+## Proposal 1:
+
+### Title: Elwha Dam Removals-Relationship of Upstream Discharge to Downstream Turbidity (Daily)
+
+### Justification:
+
+This project exigence is based on the removal of the highest dams in US history on the Elwha River in Olympic National Park. These historic dam removals are unique due to their size, as well as the fact that the two dams were removed on the same river, upstream of the Strait of Juan de Fuca. A uniquely high amount of research was produced in relation to this project, providing a unique opportunity to study the ongoing effects of such a monumental project [@RANDLE2015709]. In fact, there were many researchers focused on the geomorphic responses to these dam removals [@10.3955/0029-344X-82.S.I.236], but the need for continued analyses to ongoing changes and better understandings of the dynamic impacts to water quality as a result of the dam removal impacts remains. In this way, our project will look to assist in the maintained study of the dual-dam removal on the Elwha River and the water quality dynamics that occurred downstream.
+
+### Research Objective/Question/Hypothesis
+
+This study will look to analyze the relationship between upstream Elwha River peak discharge levels (daily values) with the downstream measurements of turbidity (daily values).
+
+### Proposed Methods:
+
+Our two data sources will be our upstream river discharge USGS gauge (Elwha River at Mcdonald BR Near Port Angeles, WA - 12045500) and downstream river water quality USGS gauge (Elwha River at Diversion Near Port Angeles, WA - 12046260). The two variables we will be testing against eachother will be Daily Peak Discharge and Daily Peak Turbidity. Our spatial scope will be just these two gauges on the Elwha River, which can indicate only the downstream conditions from the lower Elwha River Dam. The statistical tests we expect to use will be either Pearson’s or Spearman’s correlation (dependent on distribution type) and linear or non-linear regression dependent, with both types of analysis dependent on our data structure and shape using basic EDA.
+
+Links: Elwha Diversion: https://waterdata.usgs.gov/monitoring-location/12046260/#dataTypeId=continuous-63682-86053892&period=P7D&showMedian=true Parameter: Turbidity, water, unfiltered, monochrome near infra-red LED light source, 780-900 nm, detection angle 0-45 degrees to incident light (backscatter), FBU 2013-09-18 - 2019-12-18
+
+Elwha McDonald: https://waterdata.usgs.gov/monitoring-location/12045500/#dataTypeId=continuous-00065-0&period=P7D&showMedian=false Parameter/ Period of Record: Discharge, cubic feet per second 1897-10-01 - 2025-03-12
+
+### Expected Outcomes:
+
+Based on your research question, describe what you expect to find in the results and the reason such an outcome is important. (5 points)
+
+## Proposal #2
+
+### Title: Klamath Dam Removal Effects on Water Quality
+
+### Justification:
+
+Dam removal has emerged as a popular practice in the field of watershed restoration, viewed as an effective way of improving habitat connectivity for fish populations and improving water quality [@otten_2024_why]. The push for dam removal across the United States recently culminated in the removal of four dams along the lower Klamath River [@golden_2024_workers]. Though this dam removal was only fully completed less than a year ago, the river is already beginning to feel the effect, with salmon reported spawning at previously inaccessible locations along the now free-flowing river [@golden_2024_salmon]. Though more time is needed to investigate how the Klamath Dam removal project will impact water quality, this project proposes to analyze the immediate impacts of dam removal on water temperature and turbidity. Though many dams have been removed and many studies have looked at the impacts of these removals, most studies lack data prior to dam removal and don’t focus on water quality impacts, such as temperature and turbidity [@ryanbellmore_2016_status]. These water quality parameters in particular have been shown to have a negative relationship with salmon swimming speeds, with implications for predator avoidance [@lehman_2017_relationships]. Since salmon restoration is a key reason for this dam removal project, studying how water quality measures associated with their fitness change is important.
+
+### Research Objective/Question/Hypothesis
+
+This project aims to test for differences between water temperature and turbidity before and after dam removal below the former John C. Boyle dam site in southern Oregon.
+
+### Proposed Methods:
+
+Our two data sources for this project will both come from the USGS streamflow and water quality gauge located downstream from the John C. Boyle dam (Klamath River Blw John C. Boyle Powerplant near Keno - 11510700). The two variables we will use are turbidity and water temperature. Both the spatial and temporal scope of this project will be relatively small, looking only at data from this one gauge and analyzing data collected in the year preceding the removal project and in the approximately six months after the removal was complete until the present day. We plan to use t-tests to determine if there is any difference between the average turbidity and water temperature before and after the removal.
+
+Links: https://waterdata.usgs.gov/monitoring-location/11510700/#dataTypeId=continuous-00065-0&period=P7D&showMedian=false Parameters: Temperature, water, degrees Celsius 2018-10-31 - 2025-03-13 Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 +-2.5 degrees, formazin nephelometric units (FNU) 2018-10-31 - 2025-03-13
+
+### Expected Outcomes:
+
+We expect to observe a decrease in turbidity and water temperature, as the river will be able to flow freely, rather than accumulating sediment and heating up in a reservoir. However, there may be an initial increase in turbidity immediately following the dam removal as trapped sediments are released.
+
+## Proposal #3
+
+### Title: Klamath Dam Removal
+
+### Justification:
+
+Dam removal has emerged as a popular practice in the field of watershed restoration, viewed as an effective way of restoring rivers and improving their flow [@otten_2024_why]. In 2024, one of the largest dam removal projects was completed on the Lower Klamath River, with four dams removed over the course of the year [@golden_2024_workers]. Though this dam removal was only fully completed less than a year ago, the river is already beginning to feel the effect, with salmon reported spawning at previously inaccessible locations along the now free-flowing river [@golden_2024_salmon]. Though more time is needed to investigate how the Klamath Dam removal project will impact streamflow parameters, this project proposes to analyze the immediate impacts of dam removal on peak discharge at two dam removal sites along the lower Klamath River. Damming usually slows streamflow, which can have negative consequences such as promoting the growth of algae and parasites [@otten_2024_why]. Peak discharge is also important to track following dam removal, because changes could result in increased flooding, which could have consequences for human life around the river [@ryanbellmore_2016_status].
+
+### Research Objective/Question/Hypothesis
+
+This project aims to examine the trend in daily discharge at two streamflow gauges located below previous dam sites to see if there has been any change since the dams have been removed.
+
+### Proposed Methods:
+
+Our two data sources for this project will be the daily discharge data from the USGS streamflow gauge located downstream from the John C. Boyle dam (Klamath River Blw John C. Boyle Powerplant near Keno - 11510700) and the Iron Gate Dam (Klamath R BL Iron Gate Dam CA - 11516530). Both the spatial and temporal scope of this project will be relatively small, looking only at data from these two gauges and analyzing data collected in the 10 years preceding the removal project and in the approximately six months after the removal was complete until the present day. We plan to use linear regressions to determine if there is any trend in the discharge data at these two sites.
+
+Links: https://waterdata.usgs.gov/monitoring-location/11510700/#dataTypeId=continuous-00065-0&period=P7D&showMedian=false Parameter: Daily Discharge, cubic feet per second 1959-01-01 - 2025-03-12
+
+https://waterdata.usgs.gov/monitoring-location/11516530/#dataTypeId=daily-00060-0&period=P10Y Parameter: Daily Discharge, cubic feet per second 1960-10-01 - 2025-03-24
+
+### Expected Outcomes:
+
+We expect to observe a slight increase in daily discharge, since the river’s flow will be unrestricted by the dam. However this trend may not yet be visible since there has not been long since the dams were removed.
+
+Link for basic dam info: https://wires.onlinelibrary.wiley.com/doi/full/10.1002/wat2.1164
+
+## Proposal #4
+
+### Title: Poudre River Water Quality Assessment - Streamflow and Inorganic N
+
+### Justification:
+
+Inorganic N is a very important water quality parameter, especially for communities such as Fort Collins that rely of snowmelt-dependent rivers which can have large swings of streamflow levels. Understanding the relationship of Inorganic N and streamflow level is therefore important as prediction of this relationship can allow for better watershed management and risk prevention. One paper looking into factors influencing riverine inorganic N found that there was a “limited role of temperature and precipitation drivers and N processing in the stream network compared to terrestrial drivers in predicting observed spatial patterns of N concentrations” [@bellmore_2018_nitrogen]. This study would then further investigate whether streamflows, dependent more on snowmelt than precipitation, also follow this trend or have a stronger relationship more similar to the “terrestrial drivers” found by the EPA. Additionally, the Hydrological Sciences Journal published a paper discussing this topic as well. Ultimately this study found that “the magnitude and timing of nitrogen sources are not well known,” only further contributing to the need for further investigation of the influences of different factors on riverine inorganic N [@wine_2021_seasonal].
+
+### Research Objective/Question/Hypothesis
+
+This project aims to examine the relationship between Inorganic N and Streamflow levels at an Upper-Poudre River waterquality gauge site, analysis will consist of regression and correlation tests and models based on initial EDA to determine how these two variables are related.
+
+### Proposed Methods:
+
+Our datasource for this project will be “USGS-06752000”, which is labeled as the USGS site called “CACHE LA POUDRE RIV AT MO OF CN, NR FT COLLINS, CO”, ran by the Colorado Water Science Center. Our two data sources overlap over the years 1971 to 1995, so this will be our temporal scale. Our spatial scale is precise, at just one site on the Upper-Poudre River, allowing for useful findings to inform Fort Collins as a main water user of this river. We wil be completing initial EDA to explore the shape and consistency of our data, moving on to test of either Pearson’s or Spearman’s correlation (dependent on distribution type) and linear or non-linear regression. We will choose both types of analysis based on our data structure and shape using basic EDA.
+
+Links: https://mywaterway.epa.gov/monitoring-report/NWIS/USGS-CO/USGS-06752000/
+
+Parameter: Streamflow, instantaneous, (ft3/s) Sep 14, 1962 - Aug 10, 1995
+
+Parameter: Inorganic N - (nitrate and nitrite), Dissolved, mg/l Oct 5, 1971 - Jun 30, 1995
+
+### Expected Outcomes:
+
+We expect to observe a small increase in the river in the inorganic N levels with increased stream flow at this Upper Poudre River water quality monitoring site. Although there are many factors that have influenced our dataset, and our period of record is relatively short, which can certainly decrease our confidence in this relationship we will be testing. These results are important as they can help inform Fort Collins as a main water user of the Poudre River, allowing for better prevention and mitigation as well as water quality prediction abilities, protecting all of the water users in Fort Collins.
