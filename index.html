@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="quarto-1.5.57" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+
+<title>My Paper</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+<!-- htmldependencies:E3FAD763 -->
+<script async src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <div id="quarto-toc-target"></div>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default toc-left">
+  <div class="quarto-title-banner">
+    <div class="quarto-title column-body">
+      <h1 class="title">My Paper</h1>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+            <div class="quarto-title-meta-author">
+          <div class="quarto-title-meta-heading">Authors</div>
+          <div class="quarto-title-meta-heading">Affiliation</div>
+          
+                <div class="quarto-title-meta-contents">
+            <p class="author">Cameron McLaughlin </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        The University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Alex Smilpr </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        The University
+                      </p>
+                  </div>
+                    </div>
+        
+        <div class="quarto-title-meta">
+
+                      
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      </div>
+    </div>
+
+
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header>
+
+  
+
+<nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#proposal-1" id="toc-proposal-1">Proposal 1:</a>
+  <ul>
+  <li><a href="#title-elwha-dam-removals-relationship-of-upstream-discharge-to-downstream-turbidity-daily" id="toc-title-elwha-dam-removals-relationship-of-upstream-discharge-to-downstream-turbidity-daily">Title: Elwha Dam Removals-Relationship of Upstream Discharge to Downstream Turbidity (Daily)</a></li>
+  <li><a href="#justification" id="toc-justification">Justification:</a></li>
+  <li><a href="#research-objectivequestionhypothesis" id="toc-research-objectivequestionhypothesis">Research Objective/Question/Hypothesis</a></li>
+  <li><a href="#proposed-methods" id="toc-proposed-methods">Proposed Methods:</a></li>
+  <li><a href="#expected-outcomes" id="toc-expected-outcomes">Expected Outcomes:</a></li>
+  </ul></li>
+  <li><a href="#proposal-2" id="toc-proposal-2">Proposal #2</a>
+  <ul>
+  <li><a href="#title-klamath-dam-removal-effects-on-water-quality" id="toc-title-klamath-dam-removal-effects-on-water-quality">Title: Klamath Dam Removal Effects on Water Quality</a></li>
+  <li><a href="#justification-1" id="toc-justification-1">Justification:</a></li>
+  <li><a href="#research-objectivequestionhypothesis-1" id="toc-research-objectivequestionhypothesis-1">Research Objective/Question/Hypothesis</a></li>
+  <li><a href="#proposed-methods-1" id="toc-proposed-methods-1">Proposed Methods:</a></li>
+  <li><a href="#expected-outcomes-1" id="toc-expected-outcomes-1">Expected Outcomes:</a></li>
+  </ul></li>
+  <li><a href="#proposal-3" id="toc-proposal-3">Proposal #3</a>
+  <ul>
+  <li><a href="#title-klamath-dam-removal" id="toc-title-klamath-dam-removal">Title: Klamath Dam Removal</a></li>
+  <li><a href="#justification-2" id="toc-justification-2">Justification:</a></li>
+  <li><a href="#research-objectivequestionhypothesis-2" id="toc-research-objectivequestionhypothesis-2">Research Objective/Question/Hypothesis</a></li>
+  <li><a href="#proposed-methods-2" id="toc-proposed-methods-2">Proposed Methods:</a></li>
+  <li><a href="#expected-outcomes-2" id="toc-expected-outcomes-2">Expected Outcomes:</a></li>
+  </ul></li>
+  <li><a href="#proposal-4" id="toc-proposal-4">Proposal #4</a>
+  <ul>
+  <li><a href="#title-poudre-river-water-quality-assessment---streamflow-and-inorganic-n" id="toc-title-poudre-river-water-quality-assessment---streamflow-and-inorganic-n">Title: Poudre River Water Quality Assessment - Streamflow and Inorganic N</a></li>
+  <li><a href="#justification-3" id="toc-justification-3">Justification:</a></li>
+  <li><a href="#research-objectivequestionhypothesis-3" id="toc-research-objectivequestionhypothesis-3">Research Objective/Question/Hypothesis</a></li>
+  <li><a href="#proposed-methods-3" id="toc-proposed-methods-3">Proposed Methods:</a></li>
+  <li><a href="#expected-outcomes-3" id="toc-expected-outcomes-3">Expected Outcomes:</a></li>
+  </ul></li>
+  <li><a href="#data-analysis" id="toc-data-analysis">Data Analysis:</a></li>
+  </ul>
+</nav>
+<section id="proposal-1" class="level2">
+<h2>Proposal 1:</h2>
+<section id="title-elwha-dam-removals-relationship-of-upstream-discharge-to-downstream-turbidity-daily" class="level3">
+<h3>Title: Elwha Dam Removals-Relationship of Upstream Discharge to Downstream Turbidity (Daily)</h3>
+</section>
+<section id="justification" class="level3">
+<h3>Justification:</h3>
+<p>This project exigence is based on the removal of the highest dams in US history on the Elwha River in Olympic National Park. These historic dam removals are unique due to their size, as well as the fact that the two dams were removed on the same river, upstream of the Strait of Juan de Fuca. A uniquely high amount of research was produced in relation to this project, providing a unique opportunity to study the ongoing effects of such a monumental project <span class="citation" data-cites="RANDLE2015709">(<a href="#ref-RANDLE2015709" role="doc-biblioref">Randle et al. 2015</a>)</span>. In fact, there were many researchers focused on the geomorphic responses to these dam removals <span class="citation" data-cites="10.3955/0029-344X-82.S.I.236">(<a href="#ref-10.3955/0029-344X-82.S.I.236" role="doc-biblioref">Mussman, Zabowski, and Acker 2008</a>)</span>, but the need for continued analyses to ongoing changes and better understandings of the dynamic impacts to water quality as a result of the dam removal impacts remains. In this way, our project will look to assist in the maintained study of the dual-dam removal on the Elwha River and the water quality dynamics that occurred downstream.</p>
+</section>
+<section id="research-objectivequestionhypothesis" class="level3">
+<h3>Research Objective/Question/Hypothesis</h3>
+<p>This study will look to analyze the relationship between upstream Elwha River peak discharge levels (daily values) with the downstream measurements of turbidity (daily values).</p>
+</section>
+<section id="proposed-methods" class="level3">
+<h3>Proposed Methods:</h3>
+<p>Our two data sources will be our upstream river discharge USGS gauge (Elwha River at Mcdonald BR Near Port Angeles, WA - 12045500) and downstream river water quality USGS gauge (Elwha River at Diversion Near Port Angeles, WA - 12046260). The two variables we will be testing against eachother will be Daily Peak Discharge and Daily Peak Turbidity. Our spatial scope will be just these two gauges on the Elwha River, which can indicate only the downstream conditions from the lower Elwha River Dam. The statistical tests we expect to use will be either Pearson’s or Spearman’s correlation (dependent on distribution type) and linear or non-linear regression dependent, with both types of analysis dependent on our data structure and shape using basic EDA.</p>
+<p>Links: Elwha Diversion: https://waterdata.usgs.gov/monitoring-location/12046260/#dataTypeId=continuous-63682-86053892&amp;period=P7D&amp;showMedian=true Parameter: Turbidity, water, unfiltered, monochrome near infra-red LED light source, 780-900 nm, detection angle 0-45 degrees to incident light (backscatter), FBU 2013-09-18 - 2019-12-18</p>
+<p>Elwha McDonald: https://waterdata.usgs.gov/monitoring-location/12045500/#dataTypeId=continuous-00065-0&amp;period=P7D&amp;showMedian=false Parameter/ Period of Record: Discharge, cubic feet per second 1897-10-01 - 2025-03-12</p>
+</section>
+<section id="expected-outcomes" class="level3">
+<h3>Expected Outcomes:</h3>
+<p>Based on your research question, describe what you expect to find in the results and the reason such an outcome is important. (5 points)</p>
+</section>
+</section>
+<section id="proposal-2" class="level2">
+<h2>Proposal #2</h2>
+<section id="title-klamath-dam-removal-effects-on-water-quality" class="level3">
+<h3>Title: Klamath Dam Removal Effects on Water Quality</h3>
+</section>
+<section id="justification-1" class="level3">
+<h3>Justification:</h3>
+<p>Dam removal has emerged as a popular practice in the field of watershed restoration, viewed as an effective way of improving habitat connectivity for fish populations and improving water quality <span class="citation" data-cites="otten_2024_why">(<a href="#ref-otten_2024_why" role="doc-biblioref">Otten 2024</a>)</span>. The push for dam removal across the United States recently culminated in the removal of four dams along the lower Klamath River <span class="citation" data-cites="golden_2024_workers">(<a href="#ref-golden_2024_workers" role="doc-biblioref">Golden 2024a</a>)</span>. Though this dam removal was only fully completed less than a year ago, the river is already beginning to feel the effect, with salmon reported spawning at previously inaccessible locations along the now free-flowing river <span class="citation" data-cites="golden_2024_salmon">(<a href="#ref-golden_2024_salmon" role="doc-biblioref">Golden 2024b</a>)</span>. Though more time is needed to investigate how the Klamath Dam removal project will impact water quality, this project proposes to analyze the immediate impacts of dam removal on water temperature and turbidity. Though many dams have been removed and many studies have looked at the impacts of these removals, most studies lack data prior to dam removal and don’t focus on water quality impacts, such as temperature and turbidity <span class="citation" data-cites="ryanbellmore_2016_status">(<a href="#ref-ryanbellmore_2016_status" role="doc-biblioref">Ryan Bellmore et al. 2016</a>)</span>. These water quality parameters in particular have been shown to have a negative relationship with salmon swimming speeds, with implications for predator avoidance <span class="citation" data-cites="lehman_2017_relationships">(<a href="#ref-lehman_2017_relationships" role="doc-biblioref">Lehman et al. 2017</a>)</span>. Since salmon restoration is a key reason for this dam removal project, studying how water quality measures associated with their fitness change is important.</p>
+</section>
+<section id="research-objectivequestionhypothesis-1" class="level3">
+<h3>Research Objective/Question/Hypothesis</h3>
+<p>This project aims to test for differences between water temperature and turbidity before and after dam removal below the former John C. Boyle dam site in southern Oregon.</p>
+</section>
+<section id="proposed-methods-1" class="level3">
+<h3>Proposed Methods:</h3>
+<p>Our two data sources for this project will both come from the USGS streamflow and water quality gauge located downstream from the John C. Boyle dam (Klamath River Blw John C. Boyle Powerplant near Keno - 11510700). The two variables we will use are turbidity and water temperature. Both the spatial and temporal scope of this project will be relatively small, looking only at data from this one gauge and analyzing data collected in the year preceding the removal project and in the approximately six months after the removal was complete until the present day. We plan to use t-tests to determine if there is any difference between the average turbidity and water temperature before and after the removal.</p>
+<p>Links: https://waterdata.usgs.gov/monitoring-location/11510700/#dataTypeId=continuous-00065-0&amp;period=P7D&amp;showMedian=false Parameters: Temperature, water, degrees Celsius 2018-10-31 - 2025-03-13 Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 +-2.5 degrees, formazin nephelometric units (FNU) 2018-10-31 - 2025-03-13</p>
+</section>
+<section id="expected-outcomes-1" class="level3">
+<h3>Expected Outcomes:</h3>
+<p>We expect to observe a decrease in turbidity and water temperature, as the river will be able to flow freely, rather than accumulating sediment and heating up in a reservoir. However, there may be an initial increase in turbidity immediately following the dam removal as trapped sediments are released.</p>
+</section>
+</section>
+<section id="proposal-3" class="level2">
+<h2>Proposal #3</h2>
+<section id="title-klamath-dam-removal" class="level3">
+<h3>Title: Klamath Dam Removal</h3>
+</section>
+<section id="justification-2" class="level3">
+<h3>Justification:</h3>
+<p>Dam removal has emerged as a popular practice in the field of watershed restoration, viewed as an effective way of restoring rivers and improving their flow <span class="citation" data-cites="otten_2024_why">(<a href="#ref-otten_2024_why" role="doc-biblioref">Otten 2024</a>)</span>. In 2024, one of the largest dam removal projects was completed on the Lower Klamath River, with four dams removed over the course of the year <span class="citation" data-cites="golden_2024_workers">(<a href="#ref-golden_2024_workers" role="doc-biblioref">Golden 2024a</a>)</span>. Though this dam removal was only fully completed less than a year ago, the river is already beginning to feel the effect, with salmon reported spawning at previously inaccessible locations along the now free-flowing river <span class="citation" data-cites="golden_2024_salmon">(<a href="#ref-golden_2024_salmon" role="doc-biblioref">Golden 2024b</a>)</span>. Though more time is needed to investigate how the Klamath Dam removal project will impact streamflow parameters, this project proposes to analyze the immediate impacts of dam removal on peak discharge at two dam removal sites along the lower Klamath River. Damming usually slows streamflow, which can have negative consequences such as promoting the growth of algae and parasites <span class="citation" data-cites="otten_2024_why">(<a href="#ref-otten_2024_why" role="doc-biblioref">Otten 2024</a>)</span>. Peak discharge is also important to track following dam removal, because changes could result in increased flooding, which could have consequences for human life around the river <span class="citation" data-cites="ryanbellmore_2016_status">(<a href="#ref-ryanbellmore_2016_status" role="doc-biblioref">Ryan Bellmore et al. 2016</a>)</span>.</p>
+</section>
+<section id="research-objectivequestionhypothesis-2" class="level3">
+<h3>Research Objective/Question/Hypothesis</h3>
+<p>This project aims to examine the trend in daily discharge at two streamflow gauges located below previous dam sites to see if there has been any change since the dams have been removed.</p>
+</section>
+<section id="proposed-methods-2" class="level3">
+<h3>Proposed Methods:</h3>
+<p>Our two data sources for this project will be the daily discharge data from the USGS streamflow gauge located downstream from the John C. Boyle dam (Klamath River Blw John C. Boyle Powerplant near Keno - 11510700) and the Iron Gate Dam (Klamath R BL Iron Gate Dam CA - 11516530). Both the spatial and temporal scope of this project will be relatively small, looking only at data from these two gauges and analyzing data collected in the 10 years preceding the removal project and in the approximately six months after the removal was complete until the present day. We plan to use linear regressions to determine if there is any trend in the discharge data at these two sites.</p>
+<p>Links: https://waterdata.usgs.gov/monitoring-location/11510700/#dataTypeId=continuous-00065-0&amp;period=P7D&amp;showMedian=false Parameter: Daily Discharge, cubic feet per second 1959-01-01 - 2025-03-12</p>
+<p>https://waterdata.usgs.gov/monitoring-location/11516530/#dataTypeId=daily-00060-0&amp;period=P10Y Parameter: Daily Discharge, cubic feet per second 1960-10-01 - 2025-03-24</p>
+</section>
+<section id="expected-outcomes-2" class="level3">
+<h3>Expected Outcomes:</h3>
+<p>We expect to observe a slight increase in daily discharge, since the river’s flow will be unrestricted by the dam. However this trend may not yet be visible since there has not been long since the dams were removed.</p>
+<p>Link for basic dam info: https://wires.onlinelibrary.wiley.com/doi/full/10.1002/wat2.1164</p>
+</section>
+</section>
+<section id="proposal-4" class="level2">
+<h2>Proposal #4</h2>
+<section id="title-poudre-river-water-quality-assessment---streamflow-and-inorganic-n" class="level3">
+<h3>Title: Poudre River Water Quality Assessment - Streamflow and Inorganic N</h3>
+</section>
+<section id="justification-3" class="level3">
+<h3>Justification:</h3>
+<p>Inorganic N is a very important water quality parameter, especially for communities such as Fort Collins that rely of snowmelt-dependent rivers which can have large swings of streamflow levels. Understanding the relationship of Inorganic N and streamflow level is therefore important as prediction of this relationship can allow for better watershed management and risk prevention. One paper looking into factors influencing riverine inorganic N found that there was a “limited role of temperature and precipitation drivers and N processing in the stream network compared to terrestrial drivers in predicting observed spatial patterns of N concentrations” <span class="citation" data-cites="bellmore_2018_nitrogen">(<a href="#ref-bellmore_2018_nitrogen" role="doc-biblioref">Bellmore et al. 2018</a>)</span>. This study would then further investigate whether streamflows, dependent more on snowmelt than precipitation, also follow this trend or have a stronger relationship more similar to the “terrestrial drivers” found by the EPA. Additionally, the Hydrological Sciences Journal published a paper discussing this topic as well. Ultimately this study found that “the magnitude and timing of nitrogen sources are not well known,” only further contributing to the need for further investigation of the influences of different factors on riverine inorganic N <span class="citation" data-cites="wine_2021_seasonal">(<a href="#ref-wine_2021_seasonal" role="doc-biblioref">Wine and Makhnin 2021</a>)</span>.</p>
+</section>
+<section id="research-objectivequestionhypothesis-3" class="level3">
+<h3>Research Objective/Question/Hypothesis</h3>
+<p>This project aims to examine the relationship between Inorganic N and Streamflow levels at an Upper-Poudre River waterquality gauge site, analysis will consist of regression and correlation tests and models based on initial EDA to determine how these two variables are related.</p>
+</section>
+<section id="proposed-methods-3" class="level3">
+<h3>Proposed Methods:</h3>
+<p>Our datasource for this project will be “USGS-06752000”, which is labeled as the USGS site called “CACHE LA POUDRE RIV AT MO OF CN, NR FT COLLINS, CO”, ran by the Colorado Water Science Center. Our two data sources overlap over the years 1971 to 1995, so this will be our temporal scale. Our spatial scale is precise, at just one site on the Upper-Poudre River, allowing for useful findings to inform Fort Collins as a main water user of this river. We wil be completing initial EDA to explore the shape and consistency of our data, moving on to test of either Pearson’s or Spearman’s correlation (dependent on distribution type) and linear or non-linear regression. We will choose both types of analysis based on our data structure and shape using basic EDA.</p>
+<p>Links: https://mywaterway.epa.gov/monitoring-report/NWIS/USGS-CO/USGS-06752000/</p>
+<p>Parameter: Streamflow, instantaneous, (ft3/s) Sep 14, 1962 - Aug 10, 1995</p>
+<p>Parameter: Inorganic N - (nitrate and nitrite), Dissolved, mg/l Oct 5, 1971 - Jun 30, 1995 ## libraries</p>
+</section>
+<section id="expected-outcomes-3" class="level3">
+<h3>Expected Outcomes:</h3>
+<p>We expect to observe a small increase in the river in the inorganic N levels with increased stream flow at this Upper Poudre River water quality monitoring site. Although there are many factors that have influenced our dataset, and our period of record is relatively short, which can certainly decrease our confidence in this relationship we will be testing. These results are important as they can help inform Fort Collins as a main water user of the Poudre River, allowing for better prevention and mitigation as well as water quality prediction abilities, protecting all of the water users in Fort Collins.</p>
+</section>
+</section>
+<section id="data-analysis" class="level2 unnumbered">
+<h2 class="unnumbered">Data Analysis:</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bellmore_2018_nitrogen" class="csl-entry" role="listitem">
+Bellmore, R. A., J. E. Compton, J. R. Brooks, E. W. Fox, R. A. Hill, D. J. Sobota, D. J. Thornbrugh, and M. H. Weber. 2018. <span>“Nitrogen Inputs Drive Nitrogen Concentrations in u.s. Streams and Rivers During Summer Low Flow Conditions.”</span> <em>Science of The Total Environment</em> 639 (October): 1349–59. <a href="https://doi.org/10.1016/j.scitotenv.2018.05.008">https://doi.org/10.1016/j.scitotenv.2018.05.008</a>.
+</div>
+<div id="ref-golden_2024_workers" class="csl-entry" role="listitem">
+Golden, Hallie. 2024a. <span>“Workers Breach Key Klamath Dams, Allowing Salmon to Swim Freely for the First Time.”</span> <em>AP News</em>, August. <a href="https://apnews.com/article/klamath-dams-removal-california-oregon-river-salmon-44fefba145d74383aa70a68d50597299">https://apnews.com/article/klamath-dams-removal-california-oregon-river-salmon-44fefba145d74383aa70a68d50597299</a>.
+</div>
+<div id="ref-golden_2024_salmon" class="csl-entry" role="listitem">
+———. 2024b. <span>“Salmon Return to Lay Eggs in Historic Habitat After Dam Removal.”</span> <em>AP News</em>, November. <a href="https://apnews.com/article/klamath-dam-removal-salmon-spawning-4240169b4bfa327a6a67383ab536e971">https://apnews.com/article/klamath-dam-removal-salmon-spawning-4240169b4bfa327a6a67383ab536e971</a>.
+</div>
+<div id="ref-lehman_2017_relationships" class="csl-entry" role="listitem">
+Lehman, Brendan, David D. Huff, Sean A. Hayes, and Steven T. Lindley. 2017. <span>“Relationships Between Chinook Salmon Swimming Performance and Water Quality in the San Joaquin River, California.”</span> <em>Transactions of the American Fisheries Society</em> 146 (February): 349–58. <a href="https://doi.org/10.1080/00028487.2016.1271827">https://doi.org/10.1080/00028487.2016.1271827</a>.
+</div>
+<div id="ref-10.3955/0029-344X-82.S.I.236" class="csl-entry" role="listitem">
+Mussman, Ellen K., Darlene Zabowski, and Steven A. Acker. 2008. <span>“<span class="nocase">Predicting Secondary Reservoir Sediment Erosion and Stabilization Following Dam Removal</span>.”</span> <em>Northwest Science</em> 82 (sp1): 236–45. <a href="https://doi.org/10.3955/0029-344X-82.S.I.236">https://doi.org/10.3955/0029-344X-82.S.I.236</a>.
+</div>
+<div id="ref-otten_2024_why" class="csl-entry" role="listitem">
+Otten, Gigi. 2024. <span>“Why Are We Removing Dams? | u.s. Fish &amp; Wildlife Service.”</span> www.fws.gov. <a href="https://www.fws.gov/story/2024-02/why-are-we-removing-dams">https://www.fws.gov/story/2024-02/why-are-we-removing-dams</a>.
+</div>
+<div id="ref-RANDLE2015709" class="csl-entry" role="listitem">
+Randle, Timothy J., Jennifer A. Bountry, Andrew Ritchie, and Kurt Wille. 2015. <span>“Large-Scale Dam Removal on the Elwha River, Washington, USA: Erosion of Reservoir Sediment.”</span> <em>Geomorphology</em> 246: 709–28. https://doi.org/<a href="https://doi.org/10.1016/j.geomorph.2014.12.045">https://doi.org/10.1016/j.geomorph.2014.12.045</a>.
+</div>
+<div id="ref-ryanbellmore_2016_status" class="csl-entry" role="listitem">
+Ryan Bellmore, J., Jeffrey J. Duda, Laura S. Craig, Samantha L. Greene, Christian E. Torgersen, Mathias J. Collins, and Katherine Vittum. 2016. <span>“Status and Trends of Dam Removal Research in the United States.”</span> <em>Wiley Interdisciplinary Reviews: Water</em> 4 (September): e1164. <a href="https://doi.org/10.1002/wat2.1164">https://doi.org/10.1002/wat2.1164</a>.
+</div>
+<div id="ref-wine_2021_seasonal" class="csl-entry" role="listitem">
+Wine, Michael L., and Oleg Makhnin. 2021. <span>“Seasonal Watershed-Scale Influences on Nitrogen Concentrations Across the Upper Mississippi River Basin.”</span> <em>Hydrological Sciences Journal</em>, November. <a href="https://doi.org/10.1080/02626667.2021.1999456">https://doi.org/10.1080/02626667.2021.1999456</a>.
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id = "quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+</body>
+
+</html>

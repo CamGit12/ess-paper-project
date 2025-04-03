@@ -106,7 +106,46 @@ Links: https://mywaterway.epa.gov/monitoring-report/NWIS/USGS-CO/USGS-06752000/
 Parameter: Streamflow, instantaneous, (ft3/s) Sep 14, 1962 - Aug 10, 1995
 
 Parameter: Inorganic N - (nitrate and nitrite), Dissolved, mg/l Oct 5, 1971 - Jun 30, 1995
+## libraries
 
 ### Expected Outcomes:
 
 We expect to observe a small increase in the river in the inorganic N levels with increased stream flow at this Upper Poudre River water quality monitoring site. Although there are many factors that have influenced our dataset, and our period of record is relatively short, which can certainly decrease our confidence in this relationship we will be testing. These results are important as they can help inform Fort Collins as a main water user of the Poudre River, allowing for better prevention and mitigation as well as water quality prediction abilities, protecting all of the water users in Fort Collins.
+
+## Data Analysis:
+
+```{r}
+#Libraries 
+library(dplyr)
+library(lubridate)
+library(dataRetrieval)
+```
+
+
+```{r}
+#clean/prep
+
+raw_turbidity <- readNWISuv("12046260", "63682", startDate = "2013-09-18", endDate = "2019-12-19", tz = "UTC")
+
+raw_discharge <- readNWISuv("12045500", "00060", startDate = "2013-09-18", endDate = "2019-12-19", tz = "UTC")
+
+#cleaned
+
+turbidity_clean <- raw_turbidity %>%
+  rename(
+    turbidity_fbu = X_63682_00000) %>% 
+  select(-agency_cd, -site_no, -tz_cd, -X_63682_00000_cd)
+
+  discharge_clean <- raw_discharge %>%
+  rename(
+    discharge_cfs = X_00060_00000) %>% 
+    select(-agency_cd, -site_no, -tz_cd, -X_00060_00000_cd)
+
+#join data frames by datetime
+#keep only rows that match 1:1 by datetime
+
+joined_data <- inner_join(discharge_clean, turbidity_clean, by = "dateTime")
+
+
+```
+
