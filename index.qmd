@@ -5,12 +5,20 @@ authors:
     affiliation: The University
     roles: writing
     corresponding: true
-  - name: Alex Smilpr
+  - name: Alex Smilor
     affiliation: The University
     roles: writing
     corresponding: false
 bibliography: references.bib
-csL: apa,csl
+csl: apa.csl
+format:
+  html:
+    embed-resources: true
+    execute:
+      echo: true
+      warning: false
+      message: false
+    output-dir: docs 
 ---
 
 ## Proposal 1:
